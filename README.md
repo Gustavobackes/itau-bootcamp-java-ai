@@ -1,13 +1,13 @@
 # ☕ Java & Artificial Intelligence
 
-Repositório de estudos, anotações e referências desenvolvidos durante o **Bootcamp de Inteligência Artificial com Java**, promovido pelo Itaú.
-
-O objetivo é documentar os principais conceitos, tecnologias, ferramentas e práticas apresentados ao longo do bootcamp, explorando a aplicação de Inteligência Artificial no desenvolvimento de software com Java.
+Documentação dos conceitos, tecnologias e práticas de Inteligência Artificial aplicadas ao desenvolvimento Java, reunidos durante o Bootcamp do Itaú.
 
 ## 📚 Conteúdo
 
 - [Sobre o Bootcamp](#-sobre-o-bootcamp)
 - [Fundamentos de IA](#-fundamentos-de-ia)
+  - [1. Origem da Inteligência Artificial](#1-origem-da-inteligência-artificial)
+  - [2. Como funciona o treinamento de IA](#2-como-funciona-o-treinamento-de-ia)
 - [IA Generativa e LLMs](#-ia-generativa-e-llms)
 - [Engenharia de Prompts](#-engenharia-de-prompts)
 - [Java aplicado à IA](#-java-aplicado-à-ia)
@@ -24,35 +24,40 @@ Este repositório reúne os conhecimentos adquiridos, com foco na compreensão d
 
 ## 🧠 Fundamentos de IA
 
-_A ser preenchido conforme os conteúdos apresentados._
+### 1. Origem da Inteligência Artificial
+
+A Inteligência Artificial surgiu da proposta de desenvolver máquinas capazes de simular a inteligência humana, reproduzindo habilidades como raciocínio, aprendizado, resolução de problemas e tomada de decisões.
+
+Desde os primeiros modelos, a ideia central era fazer com que computadores fossem capazes de executar tarefas que normalmente exigiriam inteligência humana, evoluindo gradualmente até os sistemas inteligentes que conhecemos hoje.
+
+### 2. Como funciona o treinamento de IA
+
+O treinamento de uma Inteligência Artificial consiste em apresentar grandes quantidades de exemplos para que o modelo consiga identificar padrões, características e relações entre os dados.
+
+Um exemplo simples é ensinar uma IA a reconhecer uma maçã. São apresentadas imagens de maçãs em diferentes formatos, posições, cores e características. Cada exemplo fornece informações que ajudam o modelo a aprender a identificar o que caracteriza uma maçã.
+
+Durante esse processo, são utilizados parâmetros e características (tokens) que ajudam a representar e diferenciar os elementos analisados.
+
+**Feedback humano (Human-in-the-Loop):** o ser humano também pode participar do treinamento, validando respostas, corrigindo classificações e fornecendo orientações quando o modelo apresenta dúvidas ou resultados incorretos. Esse retorno ajuda a melhorar o aprendizado e a precisão do modelo.
+
+
+
+
+Esse processo de aprendizado a partir de exemplos e avaliações também está presente no desenvolvimento de modelos voltados à geração de código, interpretação de linguagem e execução de outras tarefas.
 
 ## 🤖 IA Generativa e LLMs
 
-_A ser preenchido conforme os conteúdos apresentados._
-
 ## ✍️ Engenharia de Prompts
-
-_A ser preenchido conforme os conteúdos apresentados._
 
 ## ☕ Java aplicado à IA
 
-_A ser preenchido conforme os conteúdos apresentados._
-
 ## 🔌 Integrações e ferramentas
-
-_A ser preenchido conforme os conteúdos apresentados._
 
 ## 🛡️ Boas práticas
 
-_A ser preenchido conforme os conteúdos apresentados._
-
 ## 💡 Aprendizados
 
-Principais conhecimentos, descobertas e aplicações exploradas durante o bootcamp.
-
 ## 🔗 Referências
-
-Materiais, documentações oficiais e recursos complementares utilizados durante os estudos.
 
 ---
 
