@@ -40,8 +40,7 @@ Durante esse processo, são utilizados parâmetros e características (tokens) q
 
 **Feedback humano (Human-in-the-Loop):** o ser humano também pode participar do treinamento, validando respostas, corrigindo classificações e fornecendo orientações quando o modelo apresenta dúvidas ou resultados incorretos. Esse retorno ajuda a melhorar o aprendizado e a precisão do modelo.
 
-
-
+<img width="1341" height="800" alt="Gemini_Generated_Image_yl60zfyl60zfyl60" src="https://github.com/user-attachments/assets/03008fa4-75de-47c1-bb7e-c9a17f276708" />
 
 Esse processo de aprendizado a partir de exemplos e avaliações também está presente no desenvolvimento de modelos voltados à geração de código, interpretação de linguagem e execução de outras tarefas.
 
