@@ -9,6 +9,7 @@ Documentação dos conceitos, tecnologias e práticas de Inteligência Artificia
   - [1. Origem da Inteligência Artificial](#1-origem-da-inteligência-artificial)
   - [2. Como funciona o treinamento de IA](#2-como-funciona-o-treinamento-de-ia)
   - [3. Small Language Models (SLMs)](#3-small-language-models-slms)
+  - [4. Deep Learning](#4-deep-learning)
 
 ## 🎯 Sobre o Bootcamp
 
@@ -30,7 +31,7 @@ O treinamento de uma Inteligência Artificial consiste em apresentar grandes qua
 
 Um exemplo simples é ensinar uma IA a reconhecer uma maçã. São apresentadas imagens de maçãs em diferentes formatos, posições, cores e características. Cada exemplo fornece informações que ajudam o modelo a aprender a identificar o que caracteriza uma maçã.
 
-Durante esse processo, são utilizados parâmetros e características (tokens) que ajudam a representar e diferenciar os elementos analisados.
+Durante esse processo, são utilizados parâmetros que ajudam o modelo a representar e diferenciar os elementos analisados.
 
 **Feedback humano (Human-in-the-Loop):** o ser humano também pode participar do treinamento, validando respostas, corrigindo classificações e fornecendo orientações quando o modelo apresenta dúvidas ou resultados incorretos. Esse retorno ajuda a melhorar o aprendizado e a precisão do modelo.
 
@@ -61,6 +62,34 @@ Uma possibilidade é utilizar modelos com pesos abertos (*open-weight*), que pod
 **Importante:** o tamanho de um modelo está relacionado principalmente à quantidade de parâmetros, não à quantidade de tokens. Tokens são unidades utilizadas para representar o texto processado pelo modelo.
 
 Uma alternativa ao treinamento do zero é partir de um modelo pré-treinado e especializá-lo com *fine-tuning*, reduzindo custos e tempo de desenvolvimento.
+
+### 4. Deep Learning (Aprendizado Profundo)
+
+O **Deep Learning** é uma área do Machine Learning que utiliza redes neurais artificiais com múltiplas camadas para aprender padrões e relações complexas a partir de grandes volumes de dados.
+
+Com sua evolução, as redes neurais passaram a trabalhar com múltiplas camadas e conexões, permitindo identificar relações cada vez mais complexas entre informações. Essa evolução também possibilitou o desenvolvimento de **IA multimodal**, capaz de processar e relacionar diferentes tipos de dados, como textos, imagens, áudios e vídeos.
+
+Uma característica importante é a capacidade de identificar informações e características que não foram declaradas diretamente como entradas, mas que podem ser inferidas a partir dos dados analisados.
+
+**Exemplo prático:** imagine alguém apresentando uma revista Pokémon. Ao observar essa situação, nosso cérebro pode associar automaticamente a revista a alguém que gosta de Pokémon, ao universo dos games ou até despertar lembranças de quando costumávamos colecionar revistas.
+
+Essas associações acontecem naturalmente, sem que alguém precise fornecer todas essas informações explicitamente.
+
+Algo semelhante acontece no Deep Learning: o modelo analisa os dados, identifica padrões e estabelece relações que permitem chegar a determinadas conclusões.
+
+**Inferência:** é o processo pelo qual o modelo utiliza os padrões e conhecimentos adquiridos durante o treinamento para analisar novos dados e produzir uma resposta, classificação ou previsão.
+
+#### Exemplo prático: interpretação de contexto e recomendações
+
+Ao solicitar recomendações de filmes semelhantes a *O Robô Selvagem*, a IA pode identificar elementos da história, como relações afetivas, amizade, conexões humanas, emoções e vínculos entre personagens.
+
+Mesmo sem especificar essas características no pedido, o modelo consegue utilizar o contexto do filme para identificar possíveis interesses por trás da solicitação e ampliar as recomendações com base em características narrativas e temáticas em comum.
+
+<img width="939" height="560" alt="Gemini_Generated_Image_1qguj71qguj71qgu" src="https://github.com/user-attachments/assets/dc2b8526-01d2-4d44-948a-632413008416" />
+
+Essa interação demonstra como a IA pode ir além da interpretação literal de uma solicitação, utilizando padrões e relações aprendidas para compreender melhor o contexto e produzir resultados mais relevantes.
+
+**Importante:** embora a analogia com o cérebro humano ajude a compreender o conceito, o Deep Learning não pensa exatamente como uma pessoa. Ele utiliza representações matemáticas aprendidas pelas camadas das redes neurais para reconhecer padrões e realizar inferências.
 
 ---
 
