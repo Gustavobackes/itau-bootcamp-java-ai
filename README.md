@@ -8,13 +8,7 @@ Documentação dos conceitos, tecnologias e práticas de Inteligência Artificia
 - [Fundamentos de IA](#-fundamentos-de-ia)
   - [1. Origem da Inteligência Artificial](#1-origem-da-inteligência-artificial)
   - [2. Como funciona o treinamento de IA](#2-como-funciona-o-treinamento-de-ia)
-- [IA Generativa e LLMs](#-ia-generativa-e-llms)
-- [Engenharia de Prompts](#-engenharia-de-prompts)
-- [Java aplicado à IA](#-java-aplicado-à-ia)
-- [Integrações e ferramentas](#-integrações-e-ferramentas)
-- [Boas práticas](#-boas-práticas)
-- [Aprendizados](#-aprendizados)
-- [Referências](#-referências)
+  - [3. Small Language Models (SLMs)](#3-small-language-models-slms)
 
 ## 🎯 Sobre o Bootcamp
 
@@ -40,23 +34,33 @@ Durante esse processo, são utilizados parâmetros e características (tokens) q
 
 **Feedback humano (Human-in-the-Loop):** o ser humano também pode participar do treinamento, validando respostas, corrigindo classificações e fornecendo orientações quando o modelo apresenta dúvidas ou resultados incorretos. Esse retorno ajuda a melhorar o aprendizado e a precisão do modelo.
 
-<img width="939" height="560" alt="Gemini_Generated_Image_yl60zfyl60zfyl60" src="https://github.com/user-attachments/assets/03008fa4-75de-47c1-bb7e-c9a17f276708" />
+<img width="939" height="560" alt="Exemplo de treinamento de IA com reconhecimento de maçãs" src="https://github.com/user-attachments/assets/03008fa4-75de-47c1-bb7e-c9a17f276708" />
 
 Esse processo de aprendizado a partir de exemplos e avaliações também está presente no desenvolvimento de modelos voltados à geração de código, interpretação de linguagem e execução de outras tarefas.
 
-## 🤖 IA Generativa e LLMs
+### 3. Small Language Models (SLMs)
 
-## ✍️ Engenharia de Prompts
+Os **SLMs (Small Language Models)** são modelos de linguagem menores, desenvolvidos para realizar tarefas específicas ou mais delimitadas, utilizando menos recursos computacionais do que os grandes modelos de linguagem (LLMs).
 
-## ☕ Java aplicado à IA
+Sua principal vantagem é o menor consumo de memória e processamento, permitindo sua execução em máquinas locais e ambientes com infraestrutura mais limitada. Embora geralmente tenham menor capacidade de conhecimento amplo, podem apresentar excelentes resultados em tarefas especializadas.
 
-## 🔌 Integrações e ferramentas
+Uma possibilidade é utilizar modelos com pesos abertos (*open-weight*), que podem ser baixados e adaptados por desenvolvedores por meio de ajustes e treinamentos adicionais (*fine-tuning*), utilizando conjuntos de dados próprios para direcionar o modelo a determinadas necessidades.
 
-## 🛡️ Boas práticas
+**Exemplos de modelos:** Microsoft Phi, Google Gemma, Meta Llama e Alibaba Qwen.
 
-## 💡 Aprendizados
+**SLM vs. LLM:**
 
-## 🔗 Referências
+| Característica | SLM | LLM |
+|---|---|---|
+| Tamanho | Menor | Maior |
+| Processamento | Mais leve | Mais exigente |
+| Infraestrutura | Mais acessível | Geralmente mais robusta |
+| Especialização | Frequentemente direcionado | Conhecimento mais amplo |
+| Aplicação | Tarefas específicas | Tarefas complexas e variadas |
+
+**Importante:** o tamanho de um modelo está relacionado principalmente à quantidade de parâmetros, não à quantidade de tokens. Tokens são unidades utilizadas para representar o texto processado pelo modelo.
+
+Uma alternativa ao treinamento do zero é partir de um modelo pré-treinado e especializá-lo com *fine-tuning*, reduzindo custos e tempo de desenvolvimento.
 
 ---
 
