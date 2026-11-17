@@ -85,7 +85,7 @@ Ao solicitar recomendações de filmes semelhantes a *O Robô Selvagem*, a IA po
 
 Mesmo sem especificar essas características no pedido, o modelo consegue utilizar o contexto do filme para identificar possíveis interesses por trás da solicitação e ampliar as recomendações com base em características narrativas e temáticas em comum.
 
-<img width="939" height="560" alt="Gemini_Generated_Image_1qguj71qguj71qgu" src="https://github.com/user-attachments/assets/dc2b8526-01d2-4d44-948a-632413008416" />
+<img width="960" height="560" alt="Gemini_Generated_Image_1qguj71qguj71qgu" src="https://github.com/user-attachments/assets/dc2b8526-01d2-4d44-948a-632413008416" />
 
 Essa interação demonstra como a IA pode ir além da interpretação literal de uma solicitação, utilizando padrões e relações aprendidas para compreender melhor o contexto e produzir resultados mais relevantes.
 
