@@ -10,6 +10,7 @@ Documentação dos conceitos, tecnologias e práticas de Inteligência Artificia
   - [2. Como funciona o treinamento de IA](#2-como-funciona-o-treinamento-de-ia)
   - [3. Small Language Models (SLMs)](#3-small-language-models-slms)
   - [4. Deep Learning](#4-deep-learning)
+- [Inteligência Artificial Generativa (Gen AI)](#-inteligência-artificial-generativa-gen-ai)
 
 ## 🎯 Sobre o Bootcamp
 
@@ -85,11 +86,23 @@ Ao solicitar recomendações de filmes semelhantes a *O Robô Selvagem*, a IA po
 
 Mesmo sem especificar essas características no pedido, o modelo consegue utilizar o contexto do filme para identificar possíveis interesses por trás da solicitação e ampliar as recomendações com base em características narrativas e temáticas em comum.
 
-<img width="960" height="560" alt="Gemini_Generated_Image_1qguj71qguj71qgu" src="https://github.com/user-attachments/assets/dc2b8526-01d2-4d44-948a-632413008416" />
+<img width="960" height="560" alt="Exemplo de inferência e recomendações de filmes pelo ChatGPT" src="https://github.com/user-attachments/assets/dc2b8526-01d2-4d44-948a-632413008416" />
 
 Essa interação demonstra como a IA pode ir além da interpretação literal de uma solicitação, utilizando padrões e relações aprendidas para compreender melhor o contexto e produzir resultados mais relevantes.
 
 **Importante:** embora a analogia com o cérebro humano ajude a compreender o conceito, o Deep Learning não pensa exatamente como uma pessoa. Ele utiliza representações matemáticas aprendidas pelas camadas das redes neurais para reconhecer padrões e realizar inferências.
+
+## 🤖 Inteligência Artificial Generativa (Gen AI)
+
+A **IA Generativa (Gen AI)** é uma área da Inteligência Artificial capaz de criar novos conteúdos, como textos, imagens, códigos, áudios e vídeos, a partir de padrões e informações aprendidos durante o treinamento dos modelos.
+
+Sua evolução também trouxe novas áreas de atuação e desafios:
+
+- **Engenharia de Prompt (Prompt Engineering):** criação de instruções para orientar os modelos e melhorar seus resultados.
+- **Cibersegurança em IA (AI Security):** proteção contra ataques, manipulações e uso indevido dos sistemas.
+- **Ética em IA (AI Ethics):** discussão sobre privacidade, responsabilidade e possíveis distorções das informações geradas.
+
+Outro desafio é a manipulação de conteúdos, como a reconstrução ou alteração de trechos de vídeos e áudios, incluindo vozes e imagens de pessoas, levantando questões sobre autenticidade e desinformação.
 
 ---
 
